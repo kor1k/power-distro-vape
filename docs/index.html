@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Triablo Docs</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.min.css">
+        <!-- <link href="favicon.ico" rel="icon" type="image/x-icon" /> -->
+        <link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+        
+        <script src="js/lib/modernizr-2.6.2.min.js"></script>
+        <script data-main="js/main.js" src="js/lib/require.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header></header>
+        <section role="main">
+            <div class="documentation-sidebar ui sidebar">
+                <div class="theme-logo"><a href="#"><img src="img/logo.png" alt="" class="ui medium image"></a></div>
+                <nav>
+                    <div class="ui fluid vertical menu page-navs">
+                        <div class="header item">
+                            <i class="list icon"></i>
+                            Structure
+                        </div>
+                        <a href="#files-structure" class="sidebar-nav item">Files</a>
+                        <a href="#html-structure" class="sidebar-nav item">Html</a>
+                        <a href="#less-structure" class="sidebar-nav item">Less</a>
+                        <a href="#js-structure" class="sidebar-nav item">JavaScript</a>
+                        <div class="header item">
+                            <i class="icon magic"></i>
+                            Customization & Styles
+                        </div>
+                        <a href="#theme-color" class="sidebar-nav item">Color</a>
+                        <a href="#custom-fonts" class="sidebar-nav item">Font family</a>
+                        <a href="#custom-logo" class="sidebar-nav item">Logo image</a>
+                        <a href="#change-preloader" class="sidebar-nav item">Change preloader</a>
+                        <a href="#custom-nav" class="sidebar-nav item">Nav item</a>
+                        <a href="#custom-main-slider" class="sidebar-nav item">Main slider</a>
+                        <a href="#custom-products-slider" class="sidebar-nav item">Add category</a>
+                        <a href="#custom-countdown" class="sidebar-nav item">Countdown</a>
+                        <a href="#change-currency" class="sidebar-nav item">Change currency</a>
+                        <a href="#custom-testim-slider" class="sidebar-nav item">Testimonial slider</a>
+                        <a href="#custom-video" class="sidebar-nav item">Video</a>
+                        <a href="#custom-partners" class="sidebar-nav item">Partners</a>
+                        <a href="#team-members" class="sidebar-nav item">Team members</a>
+                        <a href="#custom-icons" class="sidebar-nav item">Icons</a>
+                        <a href="#custom-contacts" class="sidebar-nav item">Contacts</a>
+                        <a href="#custom-mail" class="sidebar-nav item">Mail</a>
+                        <div class="header item">
+                            <i class="icon url"></i>
+                            Source & Credits
+                        </div>
+                        <a href="#fonts-source" class="sidebar-nav item">Fonts Source</a>
+                        <a href="#script-source" class="sidebar-nav item">Scripts Source</a>
+                        <div class="header item">
+                            <i class="icon info letter"></i>
+                            General Info
+                        </div>
+                        <a href="#responsive" class="sidebar-nav item">Responsive</a>
+                        <a href="#browser-support" class="sidebar-nav item">Browser Support</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="documentation-content">
+                <section class="structure-docs">
+                    <h2 class="ui header">Structure</h2>
+
+                        <section id="files-structure" class="docs-point">
+                            <h3 class="ui header">Files</h3>
+                            <div class="file-structure-content">
+                                <div class="ui list">
+                                    <div class="item"><i class="right folder icon"></i>category - (products category items)</div>
+                                    <div class="item"><i class="right folder icon"></i>css - (page stylesheets)
+                                        <div class="list">
+                                            <div class="item"><i class="right folder icon"></i>less - (stylesheets with CSS pre-processor)</div>
+                                        </div>
+                                    </div>
+                                    <div class="item"><i class="right folder icon"></i>fonts - (the Font Awesome iconic font)</div>
+                                    <div class="item"><i class="right folder icon"></i>images - (all images)</div>
+                                    <div class="item"><i class="right folder icon"></i>js - (page Scripts)
+                                        <div class="list">
+                                            <div class="item"><i class="right folder icon"></i>components - (page JavaScript Components)</div>
+                                            <div class="item"><i class="right folder icon"></i>lib - (page plugins)</div>
+                                            <div class="item"><i class="right file icon"></i>script.js - (JavaScript file and module loader)</div>
+                                        </div>
+                                    </div>
+                                    <div class="item"><i class="right file icon"></i>index.html - (main page document)</div>
+                                    <div class="item"><i class="right file icon"></i>sendmail.php - (mail sender php script)</div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="html-structure" class="docs-point">
+                            <h3 class="ui header">HTML</h3>
+                            <div class="html-structure-content">
+                                <p>The template is based on the <a href="http://foundation.zurb.com/">Foundation</a> Framework</p>
+                                <p>The Foundation grid system consist of 12 columns. Width of each column is specified in/by the small-#, medium-#, and large-# classes.</p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+    <div class="row">
+        <div class="small-2 large-4 columns">...</div>
+        <div class="small-4 large-4 columns">...</div>
+        <div class="small-6 large-4 columns">...</div>
+    </div>
+    <div class="row">
+        <div class="large-3 columns">...</div>
+        <div class="large-6 columns">...</div>
+        <div class="large-3 columns">...</div>
+    </div>
+    <div class="row">
+        <div class="small-6 large-2 columns">...</div>
+        <div class="small-6 large-8 columns">...</div>
+        <div class="small-12 large-2 columns">...</div>
+    </div>
+</textarea></code>
+</pre>
+                                <p>If you need more information about the Foundation grid system, please visit the <a href="http://foundation.zurb.com/docs/components/grid.html">official foundation documentation.</a></p>
+                                
+                            </div>
+                        </section>
+
+                        <section id="less-structure" class="docs-point">
+                            <h3 class="ui header">LESS</h3>
+                            <div class="less-structure-content">
+                                <p>For style part of the template we are using <a href="http://smacss.com/">Scalable and Modular Architecture for CSS/LESS</a> and it has 2 core goals.</p>
+                                <div class="ui bulleted list">
+                                    <div class="item">Increase the semantic value of html section and content</div>
+                                    <div class="item">Decrease the expectation of a specific html structure</div>
+                                </div>
+                                <p>
+                                    The purpose of SMACSS categorization is to reduse code repetition, to increse consistent experience, and to make the maintenance easier. Under SMACSS there are 5 general categories of css/less rules:
+                                </p>
+                                <div class="ui list">
+                                    <div class="item"><i class="right folder icon"></i>colors - (stylesheets for the each theme color)</div>
+                                    <div class="item"><i class="right folder icon"></i>welcome - (stylesheets for the theme intro page)</div>
+                                    <div class="item"><i class="right folder icon"></i>modules - (stylesheets for the each theme block)
+                                        <div class="list">
+                                            <div class="item"><i class="right file icon"></i>_about-us.less - (about us section)</div>
+                                            <div class="item"><i class="right file icon"></i>_menu.less - (page navigation)</div>
+                                            <div class="item"><i class="right file icon"></i>_preloader.less - (page preloader)</div>
+                                            <div class="item"><i class="right file icon"></i>...</div>
+                                        </div>
+                                    </div>
+                                    <div class="item"><i class="right file icon"></i>_base.less - (global styles and resets for this theme)</div>
+                                    <div class="item"><i class="right file icon"></i>_state.less - (media queries and elements state styles(hover, active...))</div>
+                                    <div class="item"><i class="right file icon"></i>_layout.less - (classes and styles that define the theme layout)</div>
+                                    <div class="item"><i class="right file icon"></i>_module.less - (stylesheet for the each theme component)</div>
+                                    <div class="item"><i class="right file icon"></i>style.less - (all the less files)</div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="js-structure" class="docs-point">
+                            <h3 class="ui header">JavaScript</h3>
+                            <div>
+                                <p>Is very important how you structure your JavaScript because:</p>
+                                <div class="ui ordered list">
+                                    <div class="item">If done right, it makes code easier to understand for others and yourself when re-visting your own code.</div>
+                                    <div class="item">Having a decided-upon structure helps keeping future code clean and encourages your declared best practices.</div>
+                                    <div class="item">It makes your code testable.</div>
+                                </div>
+                                <p>For JavaScript design pattern we are using <a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/#modulepatternjavascript">"Module Pattern"</a>, which helps keep the units of code both cleanly separated and well organized.</p>
+                                <p>Each module object is a separate file and is loaded on the page with the help of <a href="http://requirejs.org/">RequireJS</a>, JavaScript file and module loader.</p>
+                                <p>Here is how a module looks like.</p>
+<pre class="language-javascript"><code>
+<textarea name="" id="" cols="30" rows="10">var s,  
+    PrimaryNameSpace = {  
+
+        settings : {  
+            basicExample: $('.main'),  
+            nestedExample : {  
+                first: true,  
+                second: true,  
+                third: true,  
+                fourth: true,  
+                fifth : ['one', 'two', 'three', 'four', 'five', 'six']  
+            },  
+
+            foo: 'bar'  
+
+        },  
+
+        init: function () {  
+            s = this.settings;  
+             
+            this.nextMethod();  
+            this.anotherMethod();  
+        },  
+
+        nextMethod: function () {  
+        },  
+
+        anotherMethod: function () {  
+        }  
+    };</textarea>
+</code>
+</pre>
+                            <p>For more about JavaScript module pattern read the <a href="http://css-tricks.com/how-do-you-structure-javascript-the-module-pattern-edition/">How Do You Structure JavaScript? The Module Pattern Edition</a> article.</p>
+                            </div>
+                        </section> 
+
+                        <div class="ui fitted divider"></div>  
+                </section>
+                <section class="custom-style">
+                    <h2 class="ui header">Customization & Styles</h2>
+                    <section id="theme-color" class="docs-point">
+                        <h3 class="ui header">Theme color</h3>
+                        <div>
+                            <p>To change the theme color, change the name of linked color file.</p>
+                            <img src="img/color.jpg" alt="">
+                            <p>These are the colors and their file name.</p>
+                            <div class="ui horizontal list">
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #dc2d31;"></span>
+                                    red
+                                </div>
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #42c3d6;"></span>
+                                    blue
+                                </div>
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #a1cf4e;"></span>
+                                    green
+                                </div>
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #e8846b;"></span>
+                                    l-red
+                                </div>
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #9b59b6;"></span>
+                                    purple
+                                </div>
+                                <div class="item">
+                                    <span class="color-preview" style="background-color: #00bd9b;"></span>
+                                    d-green
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="custom-fonts" class="docs-point">
+                        <h3 class="ui header">Font Family</h3>
+                        <div>
+                            <p>To change the embedded font, please take a look at the head part of the website and find this tag:</p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic|Lobster&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</textarea></code>
+</pre>
+                            <p>To change the font, first go to <a href="https://www.google.com/fonts">Google Fonts</a>, choose a font and replace the code above with the generated code.</p>
+                            <p>Next find _base.less file in css/less directory.</p>
+                            <p>On line 4 replace current font family name('Fira Sans') with your new one.</p>
+                            <img src="img/font-family.jpg" alt="">
+                        </div>
+                    </section>
+
+                    <section id="custom-logo"  class="docs-point">
+                        <h3 class="ui header">Logo image</h3>
+                        <div>
+                            <p>To change the logo image, rename your new image - logo.png, and replace it with current one in images directory.</p>
+                            <p>For footer logo image, rename your new image - footer-logo.png, and replace it with current one in images directory.</p>
+                        </div>
+                    </section>
+
+                    <section id="change-preloader"  class="docs-point">
+                        <h3 class="ui header">Change preloader</h3>
+                        <div>
+                            <p>To switch the theme preloader you need to paste inside '.preloader-container' block. Here is the code for:</p>
+                            <p>triangle preloader:</p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+<svg id="Layer_1" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+    <polygon fill="#FFFFFF" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441
+        545.441,557.559 "/>
+    <polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+</svg>
+</textarea></code>
+</pre>
+                            <p>color waves mask preloader: </p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+<div class="color-wave">
+    <div class="img-box">
+        <canvas id="page-preloader"></canvas>
+        <img src="images/t-shirt.png" alt="">
+    </div>
+</div>
+</textarea></code>
+</pre>
+                        </div>
+                    </section>
+
+                    <section id="custom-nav"  class="docs-point">
+                        <h3 class="ui header">Nav item</h3>
+                        <div class="custom-logo-content">
+                            <p>In index.html file find text block below on line 37. Copy and paste a list item to add new nav.</p>
+<pre class="language-markup"><code>
+<textarea>
+<nav class="js-navs-list">
+    <ul class="menu-page">
+        <li class="menu-item">
+            <a href="#products">Products</a>
+        </li>
+        <li class="menu-item">
+            <a href="#about">About us</a>
+        </li>
+        <li class="menu-item">
+            <a href="#why-us">Why Triablo</a>
+        </li>
+        <li class="menu-item">
+            <a href="#reviews">Reviews</a>
+        </li>
+        <li class="menu-item">
+            <a href="#companies">brands</a>
+        </li>
+        <li class="menu-item">
+            <a href="#team-members">Team</a>
+        </li>
+        <li class="menu-item">
+            <a href="#contacts">Contacts</a>
+        </li>
+    </ul>
+</nav>
+</textarea></code>
+</pre>
+                            <p>Anchor href attribute must match an id of a block,  where page will scroll to on click.</p>
+                        </div>
+                    </section>
+
+                    <section id="custom-main-slider"  class="docs-point">
+                        <h3 class="ui header">Main slider</h3>
+                        <div>
+                            <p>To add a new slider item copy/paste a list item and set image source.</p>
+<pre class="language-markup"><code>
+<textarea>
+<ul class="slides header-carousel">
+    <li><img src="images/carouselItem1.jpg" alt=""></li>
+    <li><img src="images/carouselItem2.jpg" alt=""></li>
+    <li><img src="images/carouselItem3.jpg" alt=""></li>
+    <li><img src="images/carouselItem4.jpg" alt=""></li>
+</ul>
+</textarea></code>
+</pre>
+                        </div>
+                    </section>
+
+                    <section id="custom-products-slider" class="docs-point">
+                        <h3 class="ui header">Add category</h3>
+                        <div>
+                            <p>To add a new category, create a new js file in the 'js/products/categories/' path. ex: bags.js</p>
+                            <p>Here is the boilerplate code for a new category:</p>
+<pre class="language-javascript"><code>
+<textarea>
+/* jshint undef: true, unused: true */
+/* global define: false */
+define([], function(){
+    return {
+        // Category name
+        name: "Bags",
+
+        // If true, the products slider will be listed in one row
+        oneRow: false,
+
+        // Path to category products images
+        imagesPath: "images/bags/",
+
+        // If true, each product will have a folder for its images, named as its code
+        addCodePath: false,
+        items: [
+            {
+                name: "Product name",
+                price: {
+                    current: "68.00", // product current price
+                    old: "80.00" // product old price
+                },
+                code: "N8101", // product code, if 'addCodePath' is set to true, the product images well be located in 'images/bags/N8101/' folder
+                details: "Product details", // Product details
+                thumb: "thumb.jpg", // Product thumbnail
+                gallery: ["1.jpg", "2.jpg", "3.jpg"], // Product large images
+                label: {
+                    icon: 'fa-bomb', // Icon for product label, chose your own from fontawesome icons pack
+                    text: 'best seler' // Label text
+                }
+            }
+        ]
+    };
+});
+</textarea></code>
+</pre>
+                            <p>Define the new category in 'defineCategories.js' from the 'js/products/' path.</p>
+<pre class="language-javascript"><code>
+<textarea>
+/* jshint undef: true, unused: true */
+/* global define: false */
+define([
+    // path to category file
+    "products/categories/bags"
+], function(){
+    "use strict";
+
+    var list = [];
+    for(var i = 0; i<arguments.length; i++) {
+        list.push(arguments[i]);
+    }
+
+    return list;
+});
+</textarea></code>
+</pre>
+                        </div>
+                    </section>
+
+                    <section id="custom-countdown" class="docs-point">
+                        <h3 class="ui header">Countdown</h3>
+                        <div>
+                            <p>In 'data-date' attribute set your custom date.</p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+<div class="countdown-block" data-date="yyyy-mm-dd hh:mm:ss"></div>
+</textarea></code>
+</pre>                             
+                        </div>
+                    </section>
+
+                    <section id="change-currency" class="docs-point">
+                        <h3 class="ui header">Change currency</h3>
+                        <div>
+                            <p>To change the theme currency, write it inside the data-currency attribute on body tag.</p>
+<pre class="language-markup"><code>
+<textarea name="" id="" cols="30" rows="10">
+<body data-currency="$">
+</textarea></code>
+</pre>                             
+                        </div>
+                    </section>
+
+                    <section id="custom-testim-slider" class="docs-point">
+                        <h3 class="ui header">Testimonial slider</h3>
+                        <div>
+                            <p>To add a new testimonial in slider copy/paste list item in testimonial-slider section.</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+<li class="testimonial-item">
+    <div class="testimonial-container">
+        <div class="testimonial-auth">
+            <div class="testim-auth-photo">
+                <img src="images/testim-auth-photo/auth1.jpg" alt="">
+            </div>
+            <p class="short-info">Name,<span class="auth-country"> info(city, phone number...)</span></p>
+        </div>
+        <p class="main-testimonial">Main testimonial</p>
+    </div>
+</li></textarea></code>
+</pre>                             
+                        </div>
+                    </section>
+                    
+                    <section id="custom-video" class="docs-point">
+                        <h3 class="ui header">Video</h3>
+                        <div>
+                            <p>To add your video on page, insert your files in video directory and change and set src to it.</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+        <video preload="auto" loop class="video-block js-page-video" poster="images/video-preview.jpg">
+            <source src="video/MOTO-HD.mp4" type="video/mp4">
+            <source src="video/MOTO-HD.webm" type="video/webm">
+            <source src="video/MOTO-HD.ogv" type="video/ogg">
+        </video></textarea></code>
+</pre>
+                            <p>In poster attribute set path to image that will be visible on devices that doesn't support video tag.</p>
+                        </div>
+                    </section>
+                    <section id="custom-partners" class="docs-point">
+                        <h3 class="ui header">Partners</h3>
+                        <div>
+                            <p>To add a partner find partners-carousel block and add a new list item with your partner logo image</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+<li>
+    <div class="partners-item">
+        <a href="#">
+            <img src="images/brand1.png" alt=""/>
+        </a>
+    </div>
+</li></textarea></code>
+</pre>  
+                        </div>
+                    </section>
+
+                    <section id="team-members" class="docs-point">
+                        <h3 class="ui header">Team members</h3>
+                        <div>
+                            <p>To change existing information you need to open index.html, find in section with id "team-members" the "about-team" block.</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+<div class="about-team">
+    <div class="team-photo">
+        <div class="team-image-container">
+            <img src="images/team/member3.jpg" alt="">
+        </div>
+
+        <div class="team-socials">
+            <div class="team-socials-container">
+                <ul class="team-social-list">
+                    <li class="team-social">
+                        <a href="#">
+                            <span class="fa fa-facebook"></span>
+                        </a>
+                    </li>
+                    <li class="team-social">
+                        <a href="#">
+                            <span class="fa fa-google-plus"></span>
+                        </a>
+                    </li>
+                    <li class="team-social">
+                        <a href="#">
+                            <span class="fa fa-tumblr"></span>
+                        </a>
+                    </li>
+                    <li class="team-social">
+                        <a href="#">
+                            <span class="fa fa-stumbleupon"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="team-member-info">
+        <h3 class="team-name" >Tyler Tong</h3>
+        <p class="team-post">Manager</p>
+        <p class="member-short-info">Member short info</p>
+    </div>
+</div></textarea></code>
+</pre>  
+                        <p>Change the information you need:</p>
+                        <img src="img/team-members-add.jpg" alt="">
+                        </div>
+                    </section>
+
+                    <section id="custom-icons" class="docs-point">
+                        <h3 class="ui header">Icons</h3>
+                        <div>
+                            <p>To change an icon chose a new one from <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome icons</a> change icon class(fa-university).</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+    <i class="fa fa-university"></i></textarea></code>
+</pre>
+                            <p>To add a new social icon find following code block and add a new list item with your icon name and anchor link</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+    <ul class="social-icons">
+        <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+            <a href="#"><i class="fa fa-google-plus"></i></a>
+        </li>
+    </ul></textarea></code>
+</pre>
+                        <p>To change icons in "WHY PEOPLE CHOOSE TRIABLO?" block chose an icon from <a href="icons.html" target="_blank">Simple Line Icons Webfont Collection</a>.</p>
+<pre class="language-markup"><code><textarea name="" id="" cols="30" rows="10">
+<div class="item-icon-block"><span class="item-icon" data-icon="icon-code"></span></div></textarea></code>
+</pre>
+                        <p>Change data-icon with your new one or a class.</p>
+                        </div>
+                    </section>
+
+                    <section id="custom-contacts" class="docs-point">
+                        <h3 class="ui header">Contacts</h3>
+                        <div>
+                            <p>To include your contact information find block "Get in touch" in index.html and set your contacts instead ours:</p>
+                            <img src="img/contacts.jpg" alt="">
+                        </div>
+                    </section>
+
+                    <section id="custom-mail" class="docs-point">
+                        <h3 class="ui header">Mail</h3>
+                        <div>
+                            <p>To get messages from users you need to setup your email address in sendmail.php file.</p>
+                            <img src="img/mail.jpg" alt="">
+                        </div>
+                    </section>
+                    <div class="ui fitted divider"></div> 
+                </section>
+
+                <section class="source">
+                    <h2 class="ui header">Source & Credits</h2>
+                    <section id="fonts-source" class="docs-point">
+                        <h3 class="ui header">Fonts Source</h3>
+                        <div>
+                            <div class="ui list">
+                                <div class="item">Typography Fonts - <a href="https://www.google.com/fonts">Google Fonts</a></div>
+                                <div class="item">Icon Fonts - <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="script-source" class="docs-point">
+                        <h3 class="ui header">Scripts Source</h3>
+                        <div>
+                            <div class="ui list">
+                                <div class="item">JavaScript library - <a href="http://jquery.com/">jQuery</a></div>
+                                <div class="item">Front-end framework - <a href="http://foundation.zurb.com/">Foundation</a></div>
+                                <div class="item">Slider - <a href="http://www.owlgraphic.com/owlcarousel/">OWL Carousel</a></div>
+                                <div class="item"><a href="http://modernizr.com/">Modernizr</a></div>
+                                <div class="item">Lightbox - <a href="http://fancyapps.com/fancybox/">Fancybox</a></div>
+                                <div class="item">Modals - <a href="http://dinbror.dk/bpopup/">bPopup</a></div>
+                                <div class="item">File and module loader - <a href="http://requirejs.org/">RequireJS</a></div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <div class="ui fitted divider"></div> 
+                </section>
+
+                <section class="general-info-docs">
+                    <h2 class="ui header">General Info</h2>
+
+                    <scetion id="responsive" class="docs-point">
+                        <h3 class="ui header">Responsive</h3>
+                        <div>
+                            <p>Fully Responsive</p>
+                            <i class="circular large teal desktop icon"></i>
+                            <i class="circular large teal tablet icon"></i>
+                            <i class="circular large teal mobile icon"></i>
+                        </div>
+                    </scetion>
+
+                    <section id="browser-support" class="docs-point">
+                        <h3 class="ui header">Browser Support</h3>
+                        <div>
+                            <p>Chrome, Firefox, Opera, Safari, IE9+</p>
+                        </div>
+                    </section>
+
+                    <div class="ui fitted divider"></div> 
+                </section>
+            </div>
+        </section>
+        <script src="js/lib/prism.js"></script>
+    </body>
+</html>

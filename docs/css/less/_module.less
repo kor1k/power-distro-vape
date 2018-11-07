@@ -1,0 +1,76 @@
+@import "semantic/_sidebar.less";
+@import "semantic/_image.less";
+@import "semantic/_list.less";
+@import "semantic/_item.less";
+@import "semantic/_header.less";
+@import "semantic/_segment.less";
+@import "semantic/_divider.less";
+@import "semantic/_icon.less";
+@import "semantic/_menu.less";
+@import "semantic/_popup.less";
+
+
+@import "less/modules/prism.css";
+
+.theme-logo{
+	width: 50%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.documentation-sidebar{
+	border-right: 1px solid rgba(0,0,0,0.1);
+	color: #222222;
+	background-color: #fff;
+}
+
+.documentation-content{
+	padding-right: 50px;
+	padding-left: 300px;
+	width: 100%;
+	box-sizing: border-box;
+
+	a{
+		color: #6ECFF5;
+		&:hover{
+			color: #1AB8F3;
+		}
+	}
+
+	& > section {
+		margin-top: 100px;
+
+		&:first-child{
+			margin-top: 30px;
+		}
+	}
+	margin-bottom: 100px;
+}
+
+.docs-point{
+	padding-top: 60px;
+
+	&:first-child{
+		padding-top: 40px;
+	}
+}
+
+nav > div{
+	border-radius: 0 !important;
+}
+
+@media screen and (max-width : 1250px) {
+	#custom-main-slider img{
+		width: 100%;
+	}
+}
+
+.color-preview {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+}

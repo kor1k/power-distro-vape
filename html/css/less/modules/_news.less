@@ -1,0 +1,306 @@
+/*==========  News section  ==========*/
+
+.news-section {
+	background-color: #eeeced;	
+}
+
+@-webkit-keyframes fadeInCustom {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInCustom {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInCustom {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+@-webkit-keyframes fadeOutCustom {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@-moz-keyframes fadeOutCustom {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes fadeOutCustom {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+
+.news-item {
+	background-color: #fff;
+	margin: 15px 0;
+
+	.news-image-block {
+		position: relative;
+		overflow: hidden;
+		line-height: 0;
+
+		.news-images-list {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			cursor: -moz-grab;
+			cursor: -webkit-grab;
+			cursor: grab;
+
+			.owl-nav {
+				div{
+					position: absolute;
+					z-index: 4;
+					padding: 7px 11px;
+					background: rgba(0,0,0,0.3);
+					-webkit-transition: top .5s ease, bottom .5s ease;
+					   -moz-transition: top .5s ease, bottom .5s ease;
+					    -ms-transition: top .5s ease, bottom .5s ease;
+					     -o-transition: top .5s ease, bottom .5s ease;
+					        transition: top .5s ease, bottom .5s ease;
+
+					&:after {
+						display: block;
+						content: '';
+						background: url(../images/sprite.png) no-repeat;
+						height: 100%;
+						width: 100%;
+						width: 12px;
+						height: 21px;
+					}
+				}
+
+				.owl-prev {
+					left: 0;
+					bottom: -21px;
+					margin-bottom: -17px;
+
+					&:after {
+						background-position: 0 -27px;
+					}
+				}
+
+				.owl-next {
+					right: 0;
+					top: -21px;
+					margin-top: -17px;
+
+					&:after {
+						background-position: -15px -27px;
+					}
+				}
+			}
+
+			.owl-item.fadeInCustom {
+				-webkit-animation: fadeInCustom 1s ease 1;
+				   -moz-animation: fadeInCustom 1s ease 1;
+				    -ms-animation: fadeInCustom 1s ease 1;
+				     -o-animation: fadeInCustom 1s ease 1;
+				        animation: fadeInCustom 1s ease 1;
+			}
+
+			.owl-item.fadeOutCustom {
+				-webkit-animation: fadeOutCustom 1s ease 1;
+				   -moz-animation: fadeOutCustom 1s ease 1;
+				    -ms-animation: fadeOutCustom 1s ease 1;
+				     -o-animation: fadeOutCustom 1s ease 1;
+				        animation: fadeOutCustom 1s ease 1;
+			}
+		}
+
+		&.news-with-slider {
+			a {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				display: block;
+			}
+		}
+
+		.hover-parent {
+			background-color: transparent;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			-webkit-transition: background-color .1s ease;
+			   -moz-transition: background-color .1s ease;
+			    -ms-transition: background-color .1s ease;
+			     -o-transition: background-color .1s ease;
+			        transition: background-color .1s ease;
+		}
+
+		.hover-parent a{
+			position: absolute;
+			display: block;
+			overflow: hidden;
+			top: 0;
+			width: 51%;
+			height: 100%;
+			-webkit-transition: -webkit-transform .5s ease;
+			   -moz-transition: -moz-transform .5s ease;
+			    -ms-transition: -ms-transform .5s ease;
+			     -o-transition: -o-transform .5s ease;
+			        transition: transform .5s ease;
+
+	        &.top-block {
+	        	left: 50%;
+	        	-webkit-transform: translateY(-100%);
+	        	   -moz-transform: translateY(-100%);
+	        	    -ms-transform: translateY(-100%);
+	        	     -o-transform: translateY(-100%);
+	        	        transform: translateY(-100%);
+
+	        	&:before {
+	        		left: -17px;
+	        	}
+	        }
+
+	        &.bottom-block {
+	        	right: 50%;
+				-webkit-transform: translateY(100%);
+				   -moz-transform: translateY(100%);
+				    -ms-transform: translateY(100%);
+				     -o-transform: translateY(100%);
+				        transform: translateY(100%);
+
+	        	&:before {
+	        		right: -18px;
+	        	}
+	        }
+
+			&:before {
+				font-size: 35px;
+				line-height: 35px;
+				color: #fff;
+				position: absolute;
+				top: 50%;
+				-webkit-transform: translateY(-50%);
+				   -moz-transform: translateY(-50%);
+				    -ms-transform: translateY(-50%);
+				     -o-transform: translateY(-50%);
+				        transform: translateY(-50%);
+			}
+		}
+	}
+
+	.news-image {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
+
+		&.large-image {
+			height: 100%;
+			width: auto;
+			max-width: none;
+			left: 50%;
+			top: 0;
+			-webkit-transform: translateX(-50%);
+			   -moz-transform: translateX(-50%);
+			    -ms-transform: translateX(-50%);
+			     -o-transform: translateX(-50%);
+			        transform: translateX(-50%);
+		}
+	}
+
+	.news-placeholder {
+		width: 100%;
+	}
+
+	.main-news-block {
+		padding: 22px 25px 31px;
+
+		* {
+			width: 100%;
+		}
+
+		.news-date {
+			line-height: 22px;
+			font-size: 13px;
+			color: #959595;
+			margin-bottom: 10px;
+			font-weight: 100;
+		}
+
+		.news-title {
+			font-size: 18px;
+			line-height: 24px;
+			margin-bottom: 10px;
+			color: #353535;
+			font-weight: 100;
+			-webkit-transition: color .25s;
+			   -moz-transition: color .25s;
+			    -ms-transition: color .25s;
+			     -o-transition: color .25s;
+			        transition: color .25s;
+		}
+
+		.main-news {
+			font-size: 13px;
+			line-height: 23px;
+			color: #8D8D8D;
+			font-weight: 300;
+		}
+	}
+
+	&:hover {
+
+		.owl-nav {
+			.owl-prev {
+				bottom: 50% !important;
+			}
+
+			.owl-next {
+				top: 50% !important;
+			}
+		}
+
+		.news-image-block {
+
+			.hover-parent a {
+				-webkit-transform: translateY(0);
+				   -moz-transform: translateY(0);
+				    -ms-transform: translateY(0);
+				     -o-transform: translateY(0);
+				        transform: translateY(0);
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+/*==========  Footer styles  ==========*/
+
+
+.footer-wrapper {
+	background-color: #383838;
+	border-top: 1px solid #232323;
+	text-align: center;
+
+	.logo-block{
+		width: 80px;
+		margin: 0 auto; 
+
+		img{
+			width: 100%;
+		}
+	}
+
+	&.l-section-padding{
+		padding: 19px 0 17px 0;
+	}
+
+	.logo-wrapper {
+		margin-top: 0;
+	}
+}
+
+.copy-right {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.footer-container {
+	font-size: 0;
+	letter-spacing: -4px;
+
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+
+.footer-item {
+	letter-spacing: normal;
+	width: 33.3333333%;
+	display: inline-block;
+	vertical-align: middle;
+	zoom: 1; /* Fix for IE7 */
+	*display: inline; /* Fix for IE7 */
+
+	@media screen and (max-width: 640px) {
+		width: 100%;
+		margin: 10px 0; 
+	}
+}
+
+.address-item {
+	font-size: 14px;
+	line-height: 20px;
+	color: #b2b2b2;
+	display: block;
+	margin: 2px 0; 
+
+	.heightlight {
+		display: inline-block;
+		vertical-align: top;
+		zoom: 1; /* Fix for IE7 */
+		*display: inline; /* Fix for IE7 */
+		color: #fff;
+	}
+}

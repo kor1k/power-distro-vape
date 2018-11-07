@@ -1,0 +1,234 @@
+/*==========  Page preloader styles  ==========*/
+
+
+.preloader-block {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background-color: #fff;
+
+	.preloader-container {
+		overflow: hidden;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		-webkit-transform: translateX(-50%) translateY(-50%);
+		   -moz-transform: translateX(-50%) translateY(-50%);
+		    -ms-transform: translateX(-50%) translateY(-50%);
+		     -o-transform: translateX(-50%) translateY(-50%);
+		        transform: translateX(-50%) translateY(-50%);
+		-webkit-animation: reveal .5s ease 1;
+		-moz-animation: reveal .5s ease 1;
+		-ms-animation: reveal .5s ease 1;
+		-o-animation: reveal .5s ease 1;
+		animation: reveal .5s ease 1;
+	}
+
+	#Layer_1 {
+		width: auto;
+		height: auto;
+	}
+
+	#page-preloader {
+		display: block;
+		position: absolute;
+		z-index: 1;
+
+		&.active {
+			-webkit-animation: fill 8s ease infinite;
+	        animation: fill 8s ease infinite;
+		}
+	}
+
+	.img-box {
+		position: relative;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		z-index: 5;
+		-webkit-pointer-events: none;
+		-moz-pointer-events: none;
+		-ms-pointer-events: none;
+		-o-pointer-events: none;
+		pointer-events: none;
+
+		img {
+			max-width: none;
+			position: relative;
+			z-index: 2;
+			margin-left: -1px;
+		}
+	}
+
+	.color-wave {
+		overflow: hidden;
+		position: relative;
+	}
+}
+
+#Layer_1 {
+	width: 100%;
+	height: 100%;
+}
+
+.polygon {
+	stroke-dasharray: 1485;
+    stroke-dashoffset: 1485;
+    -webkit-animation: draw 3s infinite linear, stroke-color 9s linear infinite alternate;
+    -moz-animation: draw 3s infinite linear, stroke-color 9s linear infinite alternate;
+    -ms-animation: draw 3s infinite linear, stroke-color 9s linear infinite alternate;
+    -o-animation: draw 3s infinite linear, stroke-color 9s linear infinite alternate;
+    animation: draw 3s infinite linear, stroke-color 9s linear infinite alternate;
+}
+
+.inner {
+	stroke-width: 0;
+	-webkit-animation: colorChange 9s linear infinite alternate;
+	   -moz-animation: colorChange 9s linear infinite alternate;
+	    -ms-animation: colorChange 9s linear infinite alternate;
+	     -o-animation: colorChange 9s linear infinite alternate;
+	        animation: colorChange 9s linear infinite alternate;
+
+}
+
+@-webkit-keyframes reveal {
+	0 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes reveal {
+	0 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-ms-keyframes reveal {
+	0 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-o-keyframes reveal {
+	0 {opacity: 0;}
+	100% {opacity: 1;}
+}
+@keyframes reveal {
+	0 {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes draw {
+	0 {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1485;}
+}
+@-moz-keyframes draw {
+	0 {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1485;}
+}
+@-ms-keyframes draw {
+	0 {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1485;}
+}
+@-o-keyframes draw {
+	0 {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1485;}
+}
+@keyframes draw {
+	0 {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: -1485;}
+}
+
+
+@-webkit-keyframes colorChange {
+	0% { fill: hsla(186, 70%, 60%, 1); }
+	20% { fill: hsla(106, 70%, 60%, 1); }
+	40% { fill: hsla(259, 70%, 60%, 1); }
+	60% { fill: hsla(0, 70%, 60%, 1); }
+	80% { fill: hsla(39, 70%, 60%, 1); }
+	100% { fill: hsla(337, 70%, 60%, 1); }
+}
+@-moz-keyframes colorChange {
+	0% { fill: hsla(186, 70%, 60%, 1); }
+	20% { fill: hsla(106, 70%, 60%, 1); }
+	40% { fill: hsla(259, 70%, 60%, 1); }
+	60% { fill: hsla(0, 70%, 60%, 1); }
+	80% { fill: hsla(39, 70%, 60%, 1); }
+	100% { fill: hsla(337, 70%, 60%, 1); }
+}
+@-ms-keyframes colorChange {
+	0% { fill: hsla(186, 70%, 60%, 1); }
+	20% { fill: hsla(106, 70%, 60%, 1); }
+	40% { fill: hsla(259, 70%, 60%, 1); }
+	60% { fill: hsla(0, 70%, 60%, 1); }
+	80% { fill: hsla(39, 70%, 60%, 1); }
+	100% { fill: hsla(337, 70%, 60%, 1); }
+}
+@-o-keyframes colorChange {
+	0% { fill: hsla(186, 70%, 60%, 1); }
+	20% { fill: hsla(106, 70%, 60%, 1); }
+	40% { fill: hsla(259, 70%, 60%, 1); }
+	60% { fill: hsla(0, 70%, 60%, 1); }
+	80% { fill: hsla(39, 70%, 60%, 1); }
+	100% { fill: hsla(337, 70%, 60%, 1); }
+}
+@keyframes colorChange {
+	0% { fill: hsla(186, 70%, 60%, 1); }
+	20% { fill: hsla(106, 70%, 60%, 1); }
+	40% { fill: hsla(259, 70%, 60%, 1); }
+	60% { fill: hsla(0, 70%, 60%, 1); }
+	80% { fill: hsla(39, 70%, 60%, 1); }
+	100% { fill: hsla(337, 70%, 60%, 1); }
+}
+
+@-webkit-keyframes stroke-color {
+	0% { stroke: hsla(186, 70%, 60%, 1); }
+	20% { stroke: hsla(106, 70%, 60%, 1); }
+	40% { stroke: hsla(259, 70%, 60%, 1); }
+	60% { stroke: hsla(0, 70%, 60%, 1); }
+	80% { stroke: hsla(39, 70%, 60%, 1); }
+	100% { stroke: hsla(337, 70%, 60%, 1); }
+}
+@-moz-keyframes stroke-color {
+	0% { stroke: hsla(186, 70%, 60%, 1); }
+	20% { stroke: hsla(106, 70%, 60%, 1); }
+	40% { stroke: hsla(259, 70%, 60%, 1); }
+	60% { stroke: hsla(0, 70%, 60%, 1); }
+	80% { stroke: hsla(39, 70%, 60%, 1); }
+	100% { stroke: hsla(337, 70%, 60%, 1); }
+}
+@-ms-keyframes stroke-color {
+	0% { stroke: hsla(186, 70%, 60%, 1); }
+	20% { stroke: hsla(106, 70%, 60%, 1); }
+	40% { stroke: hsla(259, 70%, 60%, 1); }
+	60% { stroke: hsla(0, 70%, 60%, 1); }
+	80% { stroke: hsla(39, 70%, 60%, 1); }
+	100% { stroke: hsla(337, 70%, 60%, 1); }
+}
+@-o-keyframes stroke-color {
+	0% { stroke: hsla(186, 70%, 60%, 1); }
+	20% { stroke: hsla(106, 70%, 60%, 1); }
+	40% { stroke: hsla(259, 70%, 60%, 1); }
+	60% { stroke: hsla(0, 70%, 60%, 1); }
+	80% { stroke: hsla(39, 70%, 60%, 1); }
+	100% { stroke: hsla(337, 70%, 60%, 1); }
+}
+@keyframes stroke-color {
+	0% { stroke: hsla(186, 70%, 60%, 1); }
+	20% { stroke: hsla(106, 70%, 60%, 1); }
+	40% { stroke: hsla(259, 70%, 60%, 1); }
+	60% { stroke: hsla(0, 70%, 60%, 1); }
+	80% { stroke: hsla(39, 70%, 60%, 1); }
+	100% { stroke: hsla(337, 70%, 60%, 1); }
+}
+
+
+
+// Color wave preloader
+@-webkit-keyframes fill {
+	0% { -webkit-transform: translateX(0) translateY(28%); }
+	80% { -webkit-transform: translateX(0) translateY(-18%); }
+	100% { -webkit-transform: translateX(0) translateY(28%); }
+}
+@keyframes fill {
+	0% { transform: translateX(0) translateY(28%); }
+	80% { transform: translateX(0) translateY(-18%); }
+	100% { transform: translateX(0) translateY(28%); }
+}

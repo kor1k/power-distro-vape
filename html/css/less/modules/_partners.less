@@ -1,0 +1,169 @@
+/*==========  Partners carousel styles  ==========*/
+
+
+.partners-carousel{
+	margin: -50px 0;
+	cursor: default;
+
+	&:active{
+		cursor: -moz-grabbing;
+		cursor: -webkit-grabbing;
+		cursor: grabbing;
+	}
+
+	li{
+		margin: 0 10px;
+		padding: 60px 0;
+		overflow: hidden;
+	}
+
+	.partners-item {
+		position: relative;
+		display: table;
+		padding: 0 27px;
+		max-height: 96px;
+		width: 100%;
+		height: 96px;
+		text-align: center;
+		z-index: 1;
+
+		a{
+			display: table-cell;
+			vertical-align: middle;
+			width: 100%;
+			text-align: center;
+			cursor: -moz-grab;
+			cursor: -webkit-grab;
+			cursor: grab;
+
+			img {
+				cursor: pointer;
+			}
+
+			&:after {
+				display: block;
+				content: '';
+				position: absolute;
+				width: 101px;
+				height: 1px;
+				left: 50%;
+				margin-left: -52px;
+				bottom: 20px;
+				background: #d2d2d2;
+				opacity: 0;
+				-webkit-transform: translate3D(0, 20px, 0);
+				   -moz-transform: translate3D(0, 20px, 0);
+				    -ms-transform: translate3D(0, 20px, 0);
+				     -o-transform: translate3D(0, 20px, 0);
+				        transform: translate3D(0, 20px, 0);
+			}
+		}
+
+		&:after, &:before, a:after {
+			-webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+			   -moz-transition: opacity .5s ease, -moz-transform .5s ease;
+			    -ms-transition: opacity .5s ease, -ms-transform .5s ease;
+			     -o-transition: opacity .5s ease, -o-transform .5s ease;
+			        transition: opacity .5s ease, transform .5s ease;
+		}
+
+		&:after, &:before{
+			position: absolute;
+			width: 94px;
+			top: -3px;
+			height: 1px;
+			margin-top: -1px;
+			background: #d2d2d2;
+			content: '';
+			z-index: -1;
+			pointer-events: none;
+			opacity: 0;
+		}
+
+		&:after {
+			right: 50%;
+			-webkit-transform-origin: center right;
+			   -moz-transform-origin: center right;
+			    -ms-transform-origin: center right;
+			     -o-transform-origin: center right;
+			        transform-origin: center right;
+	        -webkit-transform: translate3D(-20px, -20px, 0) rotate(-57deg);
+	           -moz-transform: translate3D(-20px, -20px, 0) rotate(-57deg);
+	            -ms-transform: translate3D(-20px, -20px, 0) rotate(-57deg);
+	             -o-transform: translate3D(-20px, -20px, 0) rotate(-57deg);
+	                transform: translate3D(-20px, -20px, 0) rotate(-57deg);
+		}
+
+		&:before {
+			left: 50%;
+			-webkit-transform-origin: center left;
+			   -moz-transform-origin: center left;
+			    -ms-transform-origin: center left;
+			     -o-transform-origin: center left;
+			        transform-origin: center left;
+	        -webkit-transform: translate3D(20px, -20px, 0) rotate(58deg);
+	           -moz-transform: translate3D(20px, -20px, 0) rotate(58deg);
+	            -ms-transform: translate3D(20px, -20px, 0) rotate(58deg);
+	             -o-transform: translate3D(20px, -20px, 0) rotate(58deg);
+	                transform: translate3D(20px, -20px, 0) rotate(58deg);
+		}
+
+		&:hover, &:focus{
+			img{
+				-webkit-filter: grayscale(0);
+				-moz-filter: grayscale(0);
+				-o-filter: grayscale(0);
+				-ms-filter: grayscale(0);
+				filter: grayscale(0);
+			}
+
+			&:before{
+				opacity: 1;
+				-webkit-transform: translate3D(0, 0, 0) rotate(58deg);
+				   -moz-transform: translate3D(0, 0, 0) rotate(58deg);
+				    -ms-transform: translate3D(0, 0, 0) rotate(58deg);
+				     -o-transform: translate3D(0, 0, 0) rotate(58deg);
+				        transform: translate3D(0, 0, 0) rotate(58deg);
+			}
+
+			&:after{
+				opacity: 1;
+				-webkit-transform: translate3D(0, 0, 0) rotate(-57deg);
+				   -moz-transform: translate3D(0, 0, 0) rotate(-57deg);
+				    -ms-transform: translate3D(0, 0, 0) rotate(-57deg);
+				     -o-transform: translate3D(0, 0, 0) rotate(-57deg);
+				        transform: translate3D(0, 0, 0) rotate(-57deg);
+			}
+
+			a:after {
+				opacity: 1;
+				-webkit-transform: translate3D(0, 0, 0);
+				   -moz-transform: translate3D(0, 0, 0);
+				    -ms-transform: translate3D(0, 0, 0);
+				     -o-transform: translate3D(0, 0, 0);
+				        transform: translate3D(0, 0, 0);
+			}
+		}
+
+		img{
+			display: inline-block !important;
+			max-width: 168px;
+			-webkit-filter: grayscale(1);
+			-moz-filter: grayscale(1);
+			-o-filter: grayscale(1);
+			-ms-filter: grayscale(1);
+			filter: grayscale(1);
+
+			-webkit-transition: all 0.3s;
+			   -moz-transition: all 0.3s;
+			    -ms-transition: all 0.3s;
+			     -o-transition: all 0.3s;
+			        transition: all 0.3s;
+		}
+	}
+}
+
+.our-partners{
+	background-color: #fff;
+	padding: 50px 0;
+}

@@ -1,0 +1,129 @@
+/*==========  Modals styles  ==========*/
+
+
+.popup-elem {
+	width: 550px;
+	background-color: #ffffff;
+	padding: 50px 0 10px 0;
+	-webkit-box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.3);
+	box-shadow: 1px 1px 4px 2px rgba(0,0,0,0.3);
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	position: relative;
+	display: none;
+
+	label{
+		font-weight: 300;
+		font-size: 16px;
+		color: #545454;
+		display: block;
+		margin-bottom: 10px;
+		padding-left: 45px;
+	}
+
+	input{
+		width: 458px;
+		display: block;
+		margin: 0 auto;
+		border: 1px solid #dcdcdc;
+		background-color: #fff;
+		margin-bottom: 20px;
+		outline: none;
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		padding: 10px;
+		height: 40px;
+		color: #545454;
+		line-height: 20px;
+		box-shadow: none;
+		font-family: @font-family;
+		
+		&:focus{
+			box-shadow: none;
+		}
+	}
+
+	.close-popup {
+		position: absolute;
+		display: block;
+		background-image: url(../images/sprite.png);
+		background-repeat: no-repeat;
+		top: 25px;
+		right: 25px;
+		background-position: -23px -95px;
+		width: 13px;
+		height: 13px;
+		cursor: pointer;
+	}
+
+	.thank-popup {
+		text-align: center;
+		line-height: 30px;
+		font-size: 20px;
+		color: #545454;
+	}
+}
+
+.success-block {
+	padding: 30px 20px;
+
+	.thank-popup {
+		span{
+			color: #1fb469;
+			font-size: 22px;
+
+		}
+	}
+}
+.error-block {
+	padding: 30px 20px;
+
+	.thank-popup {
+		span{
+			color: #c7373d;
+			font-size: 22px;
+		}
+	}
+}
+
+.form-popup-block, .order-form-block{
+	padding-top: 25px;
+
+	p{
+
+		font-size: 20px;
+		font-weight: 300;
+		text-align: center;
+		margin: 20px 0;
+		padding: 0 45px;
+	}
+}
+
+.button-block {
+	width: 100%;
+	text-align: center;
+}
+
+.button{
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 47px;
+	color: #fff;
+	cursor: pointer;
+	-webkit-transition: border-color 0.25s ease, background-color 0.25s ease;
+	   -moz-transition: border-color 0.25s ease, background-color 0.25s ease;
+	    -ms-transition: border-color 0.25s ease, background-color 0.25s ease;
+	     -o-transition: border-color 0.25s ease, background-color 0.25s ease;
+	        transition: border-color 0.25s ease, background-color 0.25s ease;
+
+	&:hover, &:focus{
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-webkit-user-select: none;
+		-webkit-touch-callout: none;
+		
+		background-color: #3C3C3C;
+	}
+}

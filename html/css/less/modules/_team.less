@@ -1,0 +1,130 @@
+/*==========  Team section styles  ==========*/ 
+
+#team-members{
+	box-shadow: 0 0 9px rgba(162, 162, 162, 0.5);
+
+	.l-section-title{
+		margin-bottom: 76px;
+
+		.section-subtitle {
+			color: #888;
+		}
+	}
+
+	.about-img-block {
+		width: 100%;
+		text-align: center;
+
+		img{
+			display: inline-block;
+			max-width: 100%;
+		}
+	}
+
+	.team-image-container{
+		border-radius: 4px;
+	}
+
+	.about-team{
+		.team-photo{
+			max-width: 300px;
+			margin: 0 auto;
+			position: relative;
+			margin-bottom: 15px;
+
+
+			img{
+				width: 100%;
+				position: relative;
+				z-index: 4;
+			}
+	    }
+	}
+
+	.team-member-info{
+		text-align: center;
+		margin-top: 6px;
+		position: relative;
+
+		.team-name{
+			font-weight: 400;
+			font-size: 18px;
+			color: #545454;
+			line-height: 25px;
+			position: relative;
+			z-index: 5;
+		}
+
+		.team-post{
+			font-size: 12px;
+			color: #131313;
+			line-height: 27px;
+			font-weight: 100;
+		}
+
+		.team-social {
+			opacity: 0;
+			display: inline-block !important;
+		}
+	}
+
+	.team-socials{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 3;
+
+		.fa{
+			-webkit-transition: color 0.3s ease;
+			   -moz-transition: color 0.3s ease;
+			    -ms-transition: color 0.3s ease;
+			     -o-transition: color 0.3s ease;
+			        transition: color 0.3s ease;
+		}
+
+		.team-socials-container{
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 100%;
+			padding: 0 15px;
+			-webkit-transform: translateY(-50%);
+			   -moz-transform: translateY(-50%);
+			    -ms-transform: translateY(-50%);
+			     -o-transform: translateY(-50%);
+			        transform: translateY(-50%);
+		}
+
+		.team-social-list{
+			width: 100%;
+			text-align: center;
+			letter-spacing: 6px;
+			opacity: 1;
+			position: relative;
+
+			li.team-social{
+				display: inline-block;
+				letter-spacing: normal;
+				border-radius: 50%;
+				
+				a{
+					width: 35px;
+					height: 35px;
+					display: block;
+
+					span.fa{
+						color: #424242;
+						font-size: 16px;
+						line-height: 36px;
+					}
+				}
+
+				&:hover a span.fa {
+					color: #424242 !important;
+				}						
+			}
+		}
+    }
+}

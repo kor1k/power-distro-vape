@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>A Simple Responsive HTML Email</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style type="text/css">
+            body {
+                margin: 0; 
+                padding: 0; 
+                min-width: 100%!important;
+            }
+
+            .content {
+                width: 100%; 
+                max-width: 600px;
+            } 
+            table {
+                border-collapse: collapse;
+            }
+
+        </style>
+    </head>
+    <body yahoo style="font-family: Arial;">
+        <table width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                <!--[if (gte mso 9)|(IE)]>
+                  <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                      <td>
+                <![endif]--> 
+                    <table class="content" width="100%"  align="center" cellpadding="0" cellspacing="0" style="border: 1px solid #eeeeee; border-top: 0; max-width: 600px;">
+                        <tr>
+                            <td class="header" align="center" style="padding-top: 40px;">
+                                <img src="http://themes.vsart.me/email/triablo/logo.jpg" alt="Triablo" style="margin: 0 auto;" width="auto" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="body">
+                                <table width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td align="center" style="padding: 0 40px 0 40px; font-size: 20px; color: #363636;">
+                                            <h3 style="font-weight: 400; margin-top: 36px; margin-bottom: 5px;">New order</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center" style="padding-bottom: 37px;">
+                                            <div style="width: 85px; height: 2px; background: #42c3d6; margin-top: 2px;"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0 40px 0 40px;">
+                                            <h4 style="margin-top: 0; margin-bottom: 10px; font-family: Arial; font-weight: 400; font-size: 18px; color: #363636;">Client information:</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table style="font-size: 14px; margin-bottom: 34px;" class="content" width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                                <tr>
+                                                    <td style="padding: 7px 40px 6px 40px;">
+                                                        <table class="content" style="max-width: 600px; word-break: break-word;" width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="vertical-align: top" width="63px">Name:</td>
+                                                                <td style="color: #42c3d6;">{{ name }}</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 7px 40px 6px 40px;">
+                                                        <table class="content" style="max-width: 600px; word-break: break-word;" width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="vertical-align: top" width="63px">Mail:</td>
+                                                                <td style="color: #42c3d6;">{{ mail }}</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 7px 40px 6px 40px;">
+                                                        <table class="content" style="max-width: 600px; word-break: break-word;" width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                                            <tr>
+                                                                <td style="vertical-align: top" width="63px">Phone:</td>
+                                                                <td style="color: #42c3d6;">{{ phone }}</td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="products">
+                                <table width="100%"  align="center" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td style="padding: 30px 40px 10px 40px; color: #363636; border-top: 1px solid #eeeeee;">
+                                            <h3 style="font-weight: 400; font-size: 18px; margin: 0; margin-top: 6px; margin-bottom: 8px;">Pre-ordered products:</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 0 40px 40px 40px;" align="center">
+                                            <table width="100%" align="center" cellpadding="0" cellspacing="0">
+                                                <tr align="center">
+                                                    <td width="50%" bgcolor="#363636" style="border-right: 1px solid #5b5b5b;"><p style="line-height: 52px; margin: 0; font-size: 16px; color: #ffffff;">Item name</p></td>
+                                                    <td width="50%" bgcolor="#363636"><p style="line-height: 52px; margin: 0; font-size: 16px; color: #ffffff;">Item ID</p></td>
+                                                </tr>
+                                            </table>
+                                            <table style="border: 1px solid #eeeeee; border-top: 0; border-bottom: 0;" width="100%" align="center" cellpadding="0" cellspacing="0">
+                                                {{ prodList }}
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                    </tr>
+                </table>
+                <![endif]-->
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

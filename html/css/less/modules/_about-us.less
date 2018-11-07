@@ -1,0 +1,114 @@
+/*==========  About us sections styles  ==========*/
+  
+
+.about-us{
+	background-color: #f8f8f8;
+
+	.general-info{
+		font-size: 18px;
+		line-height: 40px;
+		color: #585858;
+
+		@media screen and (max-width: 390px) {
+			font-size: 15px;
+			line-height: 30px;
+		}
+
+	}
+
+	.l-section-title{
+		margin-bottom: 60px;
+	}
+
+	.general-info{
+		margin-bottom: 60px;
+	}
+
+	.row:last-child{
+		font-size: 0;
+		letter-spacing: -4px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.custom-column{
+		width: 100% !important;
+	}
+}
+
+
+
+.stats-in-number{
+
+	.stats-item{
+		display: inline-block !important;
+		font-size: 0;
+		letter-spacing: -4px;
+	}
+
+	.fact-icon {
+		font-size: 50px;
+		margin-bottom: 28px;
+		color: #9C9C9C;
+		position: relative;
+		-webkit-transition: color .5s ease;
+		   -moz-transition: color .5s ease;
+		    -ms-transition: color .5s ease;
+		     -o-transition: color .5s ease;
+		        transition: color .5s ease;
+
+		i:before {
+			margin-left: -2px;
+		}
+
+        &:after {
+        	display: block;
+        	content: '';
+        	width: 20px;
+        	height: 2px;
+        	position: absolute;
+        	background-color: #E0E0E0;
+        	bottom: -15px;
+        	left: 50%;	
+        	margin-left: -10px;
+        }
+
+	}
+
+	.important-facts-wrapper {
+		text-align: center;
+		overflow: hidden;
+		width: 100%;
+		display: inline-block;
+		vertical-align: top;
+
+		@media screen and (max-width: 390px) {
+			width: 100% !important;
+		}
+
+		.important-facts{
+			position: relative;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+
+		.animated-text{
+			letter-spacing: normal;
+			
+			span{
+				display: inline-block;
+				font-size: 25px;
+
+				color: #2f2f2f;
+				position: relative;
+			}
+		}
+
+		.facts-info {
+			letter-spacing: normal;
+			font-size: 14px;
+			color: #9C9C9C;
+			text-transform: uppercase;
+		}
+	}
+}
