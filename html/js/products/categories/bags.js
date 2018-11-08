@@ -8,9 +8,9 @@ define([], function(){
 		addCodePath: false,
 		items: [
 			{
-				name: "Eastpak Padded Pak'R Backpack",
+				name: "Backpack Test",
 				price: {
-					current: "68.00"
+					current: "100.0"
 				},
 				code: "N8101",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit vitae repellat doloremque dolorem, numquam.",
