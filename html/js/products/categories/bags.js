@@ -18,9 +18,9 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Cayler And Sons Milano Backpack",
+				name: "Backpack Test",
 				price: {
-					current: "53.00"
+					current: "228.00"
 				},
 				code: "N8102",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, animi quam obcaecati.",
@@ -28,10 +28,10 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Cayler And Sons Milano Backpack",
+				name: "Backpack Test",
 				price: {
-					current: "38.00",
-					old: "48.00"
+					current: "100.00",
+					old: "50.00"
 				},
 				code: "N8103",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",

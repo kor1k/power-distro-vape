@@ -515,12 +515,14 @@ nav {
   overflow: hidden;
 }
 .header-wrapper {
+  /*background-color: green;*/
   display: table;
   width: 100%;
   height: 100%;
   z-index: 35;
 }
 .header-wrapper .header-content {
+  background-color: orange;
   display: table-cell;
   vertical-align: middle;
   width: 100%;
@@ -553,9 +555,9 @@ nav {
   }
 }
 .page-quote-block .quote-comment {
-  font-size: 15px;
-  margin-top: 10px;
-  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  color: orange;
   font-weight: 300;
 }
 .page-quote-block .button {

@@ -244,6 +244,10 @@ nav {
     letter-spacing: 1px
 }
 
+..menu-item a:hover {
+    color: white;
+}
+
 .logo-wrapper {
     z-index: 100;
     width: 100%;
@@ -426,7 +430,7 @@ nav {
 }
 
 .header-wrapper .header-content {
-    background-color: darkblue;
+    /*border-color: #0bc3ff;*/
     display: table-cell;
     vertical-align: middle;
     width: 100%
@@ -731,7 +735,8 @@ nav {
     line-height: 45px;
     font-size: 25px;
     font-weight: 100;
-    color: #353535;
+    /*color: #353535;*/
+    color: orange;
     cursor: pointer;
     -webkit-transition: color .25s;
     -moz-transition: color .25s;
@@ -1562,6 +1567,7 @@ nav {
 }
 
 .form-fields .submit-btn {
+    background-color: orange;
     width: 100%
 }
 
