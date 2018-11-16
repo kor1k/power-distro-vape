@@ -8,7 +8,7 @@ define([], function(){
 		addCodePath: false,
 		items: [
 			{
-				name: "Backpack Test",
+				name: "TEST NAME",
 				price: {
 					current: "100.0"
 				},
@@ -18,7 +18,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Backpack Test",
+				name: "TEST NAME",
 				price: {
 					current: "228.00"
 				},
@@ -28,7 +28,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Backpack Test",
+				name: "TEST NAME",
 				price: {
 					current: "100.00",
 					old: "50.00"
@@ -39,7 +39,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Reclaimed Vintage African Bum Bag",
+				name: "TEST NAME",
 				price: {
 					current: "32.00",
 					old: "35.30"
@@ -50,7 +50,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"],
 			},
 			{
-				name: "Mi-Pac Floral Tapestry Backpack",
+				name: "TEST NAME",
 				price: {
 					current: "16.50",
 					old: "48.00"
@@ -61,7 +61,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Herschel Woodlands Backpack",
+				name: "TEST NAME",
 				price: {
 					current: "78.00"
 				},
@@ -71,7 +71,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Spiral Floral Backpack",
+				name: "TEST NAME",
 				price: {
 					current: "20.00",
 					old: "25.00"
@@ -82,7 +82,7 @@ define([], function(){
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "River Island Backpack",
+				name: "TEST NAME",
 				price: {
 					current: "55.30",
 					old: "60.00"

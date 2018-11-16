@@ -139,7 +139,9 @@ body, html {
     vertical-align: top;
     zoom: 1;
     *display: inline;
-    width: 100%
+    width: 100%;
+    margin-bottom: 40px;
+
 }
 
 .l-section-title .section-subtitle {
@@ -6588,8 +6590,10 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .testimonial-slider {
+    background-image: url("../images/bg-pd.jpg");
+    background-attachment: fixed;
     overflow: hidden;
-    z-index: 2
+    z-index: 2;
 }
 
 .testimonial-slider:after {
@@ -6597,7 +6601,8 @@ Copyright (c) 2013 Daniel Eden
     display: block;
     content: '';
     z-index: -1;
-    background: url(../images/reviews-bg.jpg) no-repeat center;
+    background-attachment: fixed;
+    /*background: url(../images/reviews-bg.jpg) no-repeat center;*/
     background-size: 100%;
     background-size: cover;
     width: 100%;
@@ -7109,8 +7114,8 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .checkit-section {
-    background-color: #f5f5f5;
-    background-image: url("https://vignette.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest?cb=20140818120046");
+    background-color: #eda012;
+    /*background-image: url("https://vignette.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest?cb=20140818120046");*/
     background-attachment: fixed;
     padding: 60px 0;
     border-top: 1px solid #E4E4E4
@@ -7133,7 +7138,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .instagram-title:hover {
-    color: #0bc3ff;
+    color: orangered;
 }
 
 .checkit-section .checkit-btn-block .checkit-btn {
