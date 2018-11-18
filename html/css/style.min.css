@@ -151,8 +151,8 @@ body, html {
     zoom: 1;
     *display: inline;
     width: 100%;
-    color: #545454;
-    font-size: 15px;
+    color: black;
+    font-size: 17px;
     line-height: 21px;
     font-weight: 300
 }
@@ -268,7 +268,7 @@ nav {
 }
 
 .logo-wrapper .logo-image {
-    width: 85px;
+    width: 92px;
     max-width: 100%
 }
 
@@ -7119,7 +7119,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .checkit-section {
-    background-color: #f9b000;
+    background-color: #abcce9;
     /*background-image: url("https://vignette.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest?cb=20140818120046");*/
     background-attachment: fixed;
     padding: 80px 0;
