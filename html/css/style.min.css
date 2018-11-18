@@ -795,7 +795,7 @@ nav {
 }
 
 .our-products {
-    background-color: #eaf9ff;
+    background-color: #d8eafa;
     overflow: hidden;
     position: relative;
     z-index: 36;
@@ -2255,7 +2255,7 @@ nav {
 }
 
 .why-we {
-    background-color: #eeeced;
+    background-color: #abcce9;
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -2832,7 +2832,9 @@ nav {
 }
 
 .footer-wrapper {
-    background-color: #383838;
+    background-image: url("../images/bg-pd.jpg");
+    background-attachment: fixed;
+    /*background-color: #383838;*/
     border-top: 1px solid #232323;
     text-align: center
 }
@@ -6811,7 +6813,8 @@ Copyright (c) 2013 Daniel Eden
 }
 
 #team-members .l-section-title .section-subtitle {
-    color: #888
+    color: black;
+    font-size: 17px;
 }
 
 #team-members .about-img-block {
@@ -6849,15 +6852,15 @@ Copyright (c) 2013 Daniel Eden
 
 #team-members .team-member-info .team-name {
     font-weight: 400;
-    font-size: 18px;
-    color: #545454;
+    font-size: 20px;
+    color: black;
     line-height: 25px;
     position: relative;
     z-index: 5
 }
 
 #team-members .team-member-info .team-post {
-    font-size: 12px;
+    font-size: 16px;
     color: #131313;
     line-height: 27px;
     font-weight: 100;
@@ -7116,10 +7119,10 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .checkit-section {
-    background-color: #eda012;
+    background-color: #f9b000;
     /*background-image: url("https://vignette.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest?cb=20140818120046");*/
     background-attachment: fixed;
-    padding: 60px 0;
+    padding: 80px 0;
     border-top: 1px solid #E4E4E4
 }
 
@@ -7137,7 +7140,7 @@ Copyright (c) 2013 Daniel Eden
     font-size: 50px;
     color: darkblue;
     font-weight: 800;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 .instagram-title:hover {
