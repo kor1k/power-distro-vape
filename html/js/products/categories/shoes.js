@@ -2,7 +2,7 @@
 /* global define: false */
 define([], function(){
 	return {
-		name: "Shoes",
+		name: "testNameOfCategory4",
 		oneRow: false,
 		imagesPath: "http://placehold.it/",
 		addCodePath: false,

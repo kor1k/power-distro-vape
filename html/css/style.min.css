@@ -1597,6 +1597,7 @@ nav {
 
 .order-list-block .order-list-container .mCSB_dragger_bar {
     width: 3px !important
+    background-color: #ff7f27;
 }
 
 .order-list-block .order-list-container .mCSB_scrollTools {

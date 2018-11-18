@@ -1,39 +1,39 @@
 /* jshint undef: true, unused: true */
 /* global define: false */
-define(['jquery', 'velocity'], function($){
-	'use strict';
+define(['jquery', 'velocity'], function ($) {
+    'use strict';
 
-	var MainMenu = {
-		get: {
-			sticker: $("#sticker"),
-			menu: $('#nav'),
-			menuItem: $('.menu-item')
-		},
+    var MainMenu = {
+        get: {
+            sticker: $("#sticker"),
+            menu: $('#nav'),
+            menuItem: $('.menu-item')
+        },
 
-		init: function() {
-			this.bindUiActions();
-		},
+        init: function () {
+            this.bindUiActions();
+        },
 
-		bindUiActions: function() {
-			this.smoothScrolling();
-		},
+        bindUiActions: function () {
+            this.smoothScrolling();
+        },
 
-		smoothScrolling: function() {
-			MainMenu.get.menuItem.each(function() {
-				$(this).on('click tap', function(e) {
-					e.preventDefault();
-					
-					var target = $('a', $(this)).attr('href');
+        smoothScrolling: function () {
+            MainMenu.get.menuItem.each(function () {
+                $(this).on('click tap', function (e) {
+                    e.preventDefault();
 
-					var distance = $(target).offset().top;
+                    var target = $('a', $(this)).attr('href');
 
-					$('html, body').stop().animate({
-					    'scrollTop': distance
-					}, 900, 'swing');
-				});
-			});
-		}
-	};
+                    var distance = $(target).offset().top;
 
-	MainMenu.init();
+                    $('html, body').stop().animate({
+                        'scrollTop': distance
+                    }, 900, 'swing');
+                });
+            });
+        }
+    };
+
+    MainMenu.init();
 });
