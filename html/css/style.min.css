@@ -2583,7 +2583,8 @@ nav {
     letter-spacing: normal;
     font-size: 14px;
     color: #9C9C9C;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 .get-in-touch {
@@ -6859,7 +6860,8 @@ Copyright (c) 2013 Daniel Eden
     font-size: 12px;
     color: #131313;
     line-height: 27px;
-    font-weight: 100
+    font-weight: 100;
+    margin-bottom: 25px;
 }
 
 #team-members .team-member-info .team-social {
@@ -7135,6 +7137,7 @@ Copyright (c) 2013 Daniel Eden
     font-size: 50px;
     color: darkblue;
     font-weight: 800;
+    margin-bottom: 30px;
 }
 
 .instagram-title:hover {
