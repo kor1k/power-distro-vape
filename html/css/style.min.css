@@ -134,7 +134,7 @@ body, html {
     font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #353535;
+    color: white;
     display: inline-block;
     vertical-align: top;
     zoom: 1;
@@ -751,6 +751,14 @@ nav {
     display: none
 }
 
+.value {
+    color: white;
+}
+
+.currency {
+    color: white;
+}
+
 .category-list .select dt a {
     display: inline-block;
     font-size: 25px;
@@ -1193,8 +1201,8 @@ nav {
 
 .gen-product-info .prod-name {
     display: inline-block;
-    color: #353535;
-    font-size: 12px;
+    color: orange;
+    font-size: 16px;
     line-height: 23px;
     max-width: 160px;
     margin-top: -6px;
@@ -1284,7 +1292,7 @@ nav {
 }
 
 .gen-product-info .prod-price .current-price {
-    color: #353535;
+    color: white;
     display: block
 }
 
@@ -2288,7 +2296,7 @@ nav {
 .why-eleme-block .item-title {
     font-size: 24px;
     line-height: 26px;
-    color: #424242;
+    color: white;
     text-transform: uppercase;
     margin-bottom: 15px
 }
@@ -2296,7 +2304,7 @@ nav {
 .why-eleme-block .item-description {
     font-size: 14px;
     line-height: 26px;
-    color: #424242;
+    color: white;
     font-weight: 300
 }
 
@@ -2319,7 +2327,7 @@ nav {
 
 .why-eleme-block .item-icon-block .item-icon {
     font-size: 60px;
-    color: #353535
+    color: white;
 }
 
 .why-eleme-block.left-info-block {
@@ -6815,7 +6823,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 #team-members .l-section-title .section-subtitle {
-    color: black;
+    color: white;
     font-size: 17px;
 }
 
@@ -6855,7 +6863,7 @@ Copyright (c) 2013 Daniel Eden
 #team-members .team-member-info .team-name {
     font-weight: 400;
     font-size: 20px;
-    color: black;
+    color: orange;
     line-height: 25px;
     position: relative;
     z-index: 5
@@ -6863,7 +6871,7 @@ Copyright (c) 2013 Daniel Eden
 
 #team-members .team-member-info .team-post {
     font-size: 16px;
-    color: #131313;
+    color: white;
     line-height: 27px;
     font-weight: 100;
     margin-bottom: 25px;
