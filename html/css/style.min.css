@@ -134,7 +134,7 @@ body, html {
     font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
-    color: white;
+    color: orange;
     display: inline-block;
     vertical-align: top;
     zoom: 1;
@@ -151,7 +151,7 @@ body, html {
     zoom: 1;
     *display: inline;
     width: 100%;
-    color: black;
+    color: white;
     font-size: 17px;
     line-height: 21px;
     font-weight: 300
@@ -1583,6 +1583,7 @@ nav {
 }
 
 .order-list-block .order-list-container {
+    color: white;
     height: 238px;
     overflow-x: hidden;
     position: relative
@@ -1626,7 +1627,7 @@ nav {
     content: "It's empty here ...";
     display: block;
     font-size: 14px;
-    color: #353535;
+    color: white;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300
 }
@@ -1682,15 +1683,20 @@ nav {
     padding-top: 12px;
     font-weight: 300;
     font-size: 14px;
-    color: #353535
+    color: orange;
 }
 
 .order-list-block .order-total-block .total-price {
+    color: orange;
     float: right
 }
 
 .order-list-block .order-total-block .total {
     text-transform: uppercase
+}
+
+.total {
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -1746,7 +1752,7 @@ nav {
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #1c2746;
     top: 0;
     left: 0;
     z-index: 15;
@@ -1868,7 +1874,7 @@ nav {
 
 .product-details-modal .title {
     font-size: 22px;
-    color: #424242;
+    color: orange;
     line-height: 26px;
     max-width: 80%;
     margin-bottom: 28px;
@@ -1877,7 +1883,7 @@ nav {
 
 .product-details-modal .description {
     font-size: 15px;
-    color: #545454;
+    color: white;
     line-height: 21px;
     margin-bottom: 37px
 }
@@ -1889,7 +1895,8 @@ nav {
     border-radius: 38px;
     position: relative;
     z-index: 1;
-    overflow: hidden
+    overflow: hidden;
+    background-color: orange;
 }
 
 .product-details-modal .button .added {
@@ -2489,7 +2496,7 @@ nav {
 }
 
 .about-us {
-    background-color: gainsboro;
+    background-color: #1c2746;
 }
 
 .about-us .general-info {
@@ -2585,20 +2592,20 @@ nav {
 .stats-in-number .important-facts-wrapper .animated-text span {
     display: inline-block;
     font-size: 25px;
-    color: #2f2f2f;
+    color: orange;
     position: relative
 }
 
 .stats-in-number .important-facts-wrapper .facts-info {
     letter-spacing: normal;
     font-size: 20px;
-    color: #9C9C9C;
+    color: white;
     text-transform: uppercase;
     margin-bottom: 35px;
 }
 
 .get-in-touch {
-    background-color: #f1f1f1;
+    background-color: #1c2746;
     overflow: hidden;
     padding-bottom: 35px
 }
@@ -2610,7 +2617,7 @@ nav {
 .get-in-touch form .contact-field {
     max-width: 100%;
     width: 100%;
-    background-color: #ddd;
+    background-color: white;
     margin-bottom: 20px;
     outline: 0;
     border: none;
@@ -2624,7 +2631,7 @@ nav {
 }
 
 .get-in-touch .contact-label {
-    color: #545454;
+    color: white;
     font-size: 16px;
     margin-bottom: 10px;
     font-family: 'Fira Sans', sans-serif;
@@ -2903,7 +2910,7 @@ nav {
 .address-item {
     font-size: 14px;
     line-height: 20px;
-    color: #b2b2b2;
+    color: orange;
     display: block;
     margin: 2px 0
 }
@@ -6571,7 +6578,7 @@ Copyright (c) 2013 Daniel Eden
     display: block;
     line-height: 25px;
     font-size: 16px;
-    color: #fff
+    color: orange;
 }
 
 .testimonial-item .short-info .auth-country {
@@ -6939,7 +6946,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 #team-members .team-socials .team-social-list li.team-social:hover a span.fa {
-    color: #424242 !important
+    color: orange !important
 }
 
 #map-block {
@@ -7211,7 +7218,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .news-section {
-    background-color: #eeeced
+    background-color: #1c2746;
 }
 
 @-webkit-keyframes fadeInCustom {
@@ -12068,11 +12075,11 @@ input.error {
 }
 
 .social-icons a:hover .fa-twitter, .team-social a:hover .fa-twitter {
-    color: #48c4d2 !important
+    color: white !important
 }
 
 .social-icons a:hover .fa-google-plus, .team-social a:hover .fa-google-plus {
-    color: #d94a39 !important
+    color: white !important
 }
 
 .social-icons a:hover .fa-dribbble, .team-social a:hover .fa-dribbble {
@@ -12084,7 +12091,7 @@ input.error {
 }
 
 .social-icons a:hover .fa-instagram, .team-social a:hover .fa-instagram {
-    color: #634d40 !important
+    color: white !important
 }
 
 .social-icons a:hover .fa-linkedin, .team-social a:hover .fa-linkedin {
