@@ -1641,10 +1641,11 @@ nav {
 .order-list-block .order-item:after {
     display: block;
     content: '';
-    clear: both
+    clear: both;
 }
 
 .order-list-block .order-item .order-name {
+    color: white;
     max-width: 370px;
     width: 80%;
     display: inline-block;
@@ -1772,6 +1773,7 @@ nav {
 .product-details-modal .product-details {
     padding-left: 10px
 }
+
 
 .product-details-modal .custom-column {
     float: none !important;
@@ -2105,6 +2107,11 @@ nav {
     .product-details-modal .close-details {
         right: 18px
     }
+}
+
+.close-details {
+    color: orange;
+
 }
 
 .partners-carousel {
@@ -2925,7 +2932,7 @@ nav {
 
 .popup-elem {
     width: 550px;
-    background-color: #fff;
+    background-color: #1c2746;
     padding: 50px 0 10px;
     -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .3);
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .3);
@@ -2985,7 +2992,7 @@ nav {
     text-align: center;
     line-height: 30px;
     font-size: 20px;
-    color: #545454
+    color: white;
 }
 
 .success-block {
@@ -3002,7 +3009,7 @@ nav {
 }
 
 .error-block .thank-popup span {
-    color: #c7373d;
+    color: orange;
     font-size: 22px
 }
 
@@ -6577,7 +6584,7 @@ Copyright (c) 2013 Daniel Eden
 .testimonial-item .short-info {
     display: block;
     line-height: 25px;
-    font-size: 16px;
+    font-size: 21px;
     color: orange;
 }
 

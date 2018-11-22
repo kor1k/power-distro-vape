@@ -1,12 +1,12 @@
 /* jshint undef: true, unused: true */
 /* global define: false */
 define([
-    'products/categories/bags',
-    'products/categories/jeans',
-    'products/categories/shirts',
-    'products/categories/shoes',
-    'products/categories/shorts',
-    'products/categories/t-shirts'
+    'products/categories/bad-drip',
+    'products/categories/candy-king',
+    'products/categories/clown',
+    'products/categories/cookie-king',
+    'products/categories/directors-cut',
+    'products/categories/ice-monster'
 ], function () {
     "use strict";
 

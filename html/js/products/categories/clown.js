@@ -2,7 +2,7 @@
 /* global define: false */
 define([], function(){
 	return {
-		name: "testNameOfCategory3",
+		name: "Clown",
 		oneRow: false,
 		imagesPath: "http://placehold.it/",
 		addCodePath: false,
@@ -13,7 +13,7 @@ define([], function(){
 					current: "35.00"
 				},
 				code: "N8401",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit vitae repellat doloremque dolorem, numquam.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -24,7 +24,7 @@ define([], function(){
 					old: "38.00"
 				},
 				code: "N8402",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, animi quam obcaecati.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -35,7 +35,7 @@ define([], function(){
 					old: "53.00"
 				},
 				code: "N8403",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -45,7 +45,7 @@ define([], function(){
 					current: "138.00"
 				},
 				code: "N8404",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing. Voluptates odit vitae repellat doloremque dolorem, numquam.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -56,7 +56,7 @@ define([], function(){
 					old: "98.00"
 				},
 				code: "N8405",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -66,7 +66,7 @@ define([], function(){
 					current: "108.00"
 				},
 				code: "N8406",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing. Voluptates odit vitae repellat doloremque dolorem, numquam.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -77,7 +77,7 @@ define([], function(){
 					old: "105.30"
 				},
 				code: "N8407",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -87,7 +87,7 @@ define([], function(){
 					current: "49.00"
 				},
 				code: "N8407",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -98,7 +98,7 @@ define([], function(){
 					old: "105.30"
 				},
 				code: "N8407",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
@@ -108,7 +108,7 @@ define([], function(){
 					current: "78.00"
 				},
 				code: "N8407",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				details: "One of Clown flavors. One of Clown flavors. One of Clown flavors. ",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},

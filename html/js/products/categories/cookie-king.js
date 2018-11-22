@@ -2,145 +2,151 @@
 /* global define: false */
 define([], function(){
 	return {
-		name: "testNameOfCategory1",
+		name: "CookieKing",
 		oneRow: false,
 		imagesPath: "http://placehold.it/",
 		addCodePath: false,
 		items: [
 			{
-				name: "TEST NAME",
+				name: "Chelsea Boots in Leather",
 				price: {
-					current: "100.0"
+					current: "58.00"
 				},
-				code: "N8101",
+				code: "N8501",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates odit vitae repellat doloremque dolorem, numquam.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "New Balance 420 Trainers",
 				price: {
-					current: "228.00"
+					current: "85.00"
 				},
-				code: "N8102",
+				code: "N8502",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, animi quam obcaecati.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "Derby Shoes",
 				price: {
-					current: "100.00",
-					old: "50.00"
+					current: "30.00",
+					old: "35.00"
 				},
-				code: "N8103",
+				code: "N8503",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "Nike Stasis ACG Boots",
 				price: {
-					current: "32.00",
-					old: "35.30"
+					current: "123.00"
 				},
-				code: "N8104",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				code: "N8504",
+				details: "Lorem ipsum dolor sit amet, consectetur adipisicing. Voluptates odit vitae repellat doloremque dolorem, numquam.",
 				thumb: "290x370",
-				gallery: ["460x590", "460x590", "460x590"],
+				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "River Island Chukka Boot",
 				price: {
-					current: "16.50",
-					old: "48.00"
+					current: "56.30",
+					old: "98.00"
 				},
-				code: "N8105",
+				code: "N8505",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "Workboots With Shearling Look Lining",
+				price: {
+					current: "65.30"
+				},
+				code: "N8506",
+				details: "Lorem ipsum dolor sit amet, consectetur adipisicing. Voluptates odit vitae repellat doloremque dolorem, numquam.",
+				thumb: "290x370",
+				gallery: ["460x590", "460x590", "460x590"]
+			},
+			{
+				name: "Puma LoPro GV Citi Series Trainers",
+				price: {
+					current: "85.00",
+					old: "105.30"
+				},
+				code: "N8507",
+				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				thumb: "290x370",
+				gallery: ["460x590", "460x590", "460x590"]
+			},
+			{
+				name: "Puma Trinomic XT1 Trainers",
+				price: {
+					current: "85.00"
+				},
+				code: "N8507",
+				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				thumb: "290x370",
+				gallery: ["460x590", "460x590", "460x590"]
+			},
+			{
+				name: "Diesel D-String Trainers",
+				price: {
+					current: "169.30",
+					old: "177.00"
+				},
+				code: "N8507",
+				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+				thumb: "290x370",
+				gallery: ["460x590", "460x590", "460x590"]
+			},
+			{
+				name: "ALDO Bernerius Trainers",
 				price: {
 					current: "78.00"
 				},
-				code: "N8106",
+				code: "N8507",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "Brogue Shoes in Leather",
 				price: {
-					current: "20.00",
-					old: "25.00"
+					current: "65.00"
 				},
-				code: "N8107",
+				code: "N8507",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "TEST NAME",
+				name: "Plimsolls",
 				price: {
-					current: "55.30",
-					old: "60.00"
+					current: "25.00"
 				},
-				code: "N8108",
+				code: "N8507",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Herschel Woodlands Backpack",
+				name: "Brogue Shoes in Leather",
 				price: {
-					current: "15.30",
-					old: "38.00"
+					current: "56.00"
 				},
-				code: "N8109",
+				code: "N8507",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
 			},
 			{
-				name: "Sandqvist Jimmy Backpack",
+				name: "River Island Desert Boots In Suede",
 				price: {
-					current: "45.30",
-					old: "47.00"
+					current: "63.00"
 				},
-				code: "N8110",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-				thumb: "290x370",
-				gallery: ["460x590", "460x590", "460x590"]
-			},
-			{
-				name: "River Island Black Satchel",
-				price: {
-					current: "38.00"
-				},
-				code: "N8112",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-				thumb: "290x370",
-				gallery: ["460x590", "460x590", "460x590"]
-			},
-			{
-				name: "Reclaimed Vintage African Bum Bag",
-				price: {
-					current: "79.00",
-					old: "89.00"
-				},
-				code: "N8113",
-				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
-				thumb: "290x370",
-				gallery: ["460x590", "460x590", "460x590"]
-			},
-			{
-				name: "Polo With Zip Neck and Polka Dot print",
-				price: {
-					current: "53.00"
-				},
-				code: "N8114",
+				code: "N8507",
 				details: "Lorem ipsum dolor sit amet, consectetur adipisicing.",
 				thumb: "290x370",
 				gallery: ["460x590", "460x590", "460x590"]
