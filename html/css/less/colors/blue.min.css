@@ -15,7 +15,7 @@
 }
 
 .get-in-touch .checkout {
-    color: #42c3d6
+    color: orange;
 }
 
 .get-in-touch .checkout:hover .fa, .get-in-touch .checkout:focus .fa {

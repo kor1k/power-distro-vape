@@ -2678,7 +2678,7 @@ nav {
 
 .get-in-touch .checkout .fa {
     margin-left: 4px;
-    background-color: #ddd;
+    background-color: white;
     z-index: 2;
     float: right;
     -webkit-transition: color .3s ease;
@@ -7077,7 +7077,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .mobile-nav-list {
-    background-color: #fff;
+    background-color: #1c2746;
     position: absolute;
     top: 0;
     left: 0;
@@ -7118,7 +7118,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .mobile-nav-list .menu-item a {
-    color: #585858
+    color: orange;
 }
 
 .mobile-nav-list .menu-item a:after {
@@ -7162,7 +7162,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .instagram-title:hover {
-    color: orangered;
+    color: orange;
 }
 
 .checkit-section .checkit-btn-block .checkit-btn {
