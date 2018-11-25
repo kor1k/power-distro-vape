@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6, p, a, li, span, button, input, textarea, label {
     font-family: 'Fira Sans', sans-serif
 }
 
+.product-details .title h4 {
+    color: orange;
+}
+
 input {
     outline: 0
 }
@@ -1645,7 +1649,7 @@ nav {
 }
 
 .order-list-block .order-item .order-name {
-    color: white;
+    color: orange;
     max-width: 370px;
     width: 80%;
     display: inline-block;
@@ -1771,6 +1775,7 @@ nav {
 }
 
 .product-details-modal .product-details {
+    color: white;
     padding-left: 10px
 }
 
@@ -1816,7 +1821,8 @@ nav {
     display: block;
     width: 24px;
     height: 1px;
-    background-color: #353535;
+    background-color: orange;
+    font-weight: 700;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -2081,13 +2087,20 @@ nav {
     }
 
     .product-details-modal .details-container {
+        /*color: orange;*/
         padding: 30px 0
     }
 
     .product-details-modal .title {
+        /*color: orange;*/
         max-width: none;
         text-align: center
     }
+
+    .product-details .title h4 {
+        color: orange;
+    }
+
 
     .product-details-modal .add-to-cart-btn {
         text-align: center
