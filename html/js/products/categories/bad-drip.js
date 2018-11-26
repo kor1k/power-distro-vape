@@ -61,7 +61,7 @@ define([], function () {
                 gallery: ["460x590", "460x590", "460x590"]
             },
             {
-                name: "Bad drip Farley's gnarly sauce Iced Out",
+                name: "Farley's gnarly sauce Iced Out",
                 price: {
                     current: "78.00"
                 },

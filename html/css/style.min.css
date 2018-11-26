@@ -2055,7 +2055,7 @@ nav {
 }
 
 .product-details-modal .details-preloader {
-    background-color: #f1f1f1;
+    background-color: #1c2746;
     position: absolute;
     z-index: 5;
     width: 100%;
@@ -2063,6 +2063,7 @@ nav {
 }
 
 .product-details-modal .details-preloader #Layer_1 {
+    background-color: #1c2746
     width: 150px;
     height: 150px;
     position: absolute;
@@ -3071,7 +3072,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 99999;
-    background-color: #fff
+    background-color: #1c2746;
 }
 
 .preloader-block .preloader-container {
