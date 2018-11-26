@@ -6844,7 +6844,8 @@ Copyright (c) 2013 Daniel Eden
 }
 
 #team-members {
-    box-shadow: 0 0 9px rgba(162, 162, 162, .5)
+    /*box-shadow: 0 0 9px rgba(162, 162, 162, .5)*/
+
 }
 
 #team-members .l-section-title {
@@ -7158,7 +7159,7 @@ Copyright (c) 2013 Daniel Eden
 }
 
 .checkit-section {
-    background-color: #abcce9;
+    background-color: #1c2746;
     /*background-image: url("https://vignette.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest?cb=20140818120046");*/
     background-attachment: fixed;
     padding: 80px 0;
