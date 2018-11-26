@@ -2679,6 +2679,7 @@ nav {
     overflow: hidden
 }
 
+
 .get-in-touch .checkout:hover span, .get-in-touch .checkout:focus span {
     left: 10px
 }
@@ -2710,7 +2711,7 @@ nav {
 }
 
 .get-in-touch .checkout .fa:before {
-    background-color: #ddd;
+    background-color: white;
     z-index: 2;
     position: relative
 }
@@ -2723,7 +2724,7 @@ nav {
 }
 
 .get-in-touch .socials-list .fa {
-    color: #383838;
+    color: white;
     -webkit-transition: color .25s;
     -moz-transition: color .25s;
     -ms-transition: color .25s;
