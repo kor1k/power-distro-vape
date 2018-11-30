@@ -1057,8 +1057,8 @@ nav {
     webkit-box-shadow: 0 0 10px #fff;
     -moz-box-shadow: 0 0 10px #fff;
     box-shadow: 0 0 10px #fff;
-    border-color: #fff;
-    color: #fff
+    border-color: orange;
+    color: orange;
 }
 
 .prod-item .prod-hover-view .hover-controls li.add-product-code {
